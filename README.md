@@ -4,10 +4,6 @@
 
 <img src="Home.png">
 
-<h3>Home page Responsive</h3>
-
-<img src="Home-Responsive.png">
-
 <h3>About us</h3>
-          
+
 <img src="About Us.png">          
