@@ -1,106 +1,110 @@
 <html>
+
 <head>
-   <title>Penn State Online | Degrees, Cerificates, and Courses Offered Online form Penn State World Campus</title>
-   <link rel="stylesheet" href="Css.css">
-   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+    <title>Penn State Online | Degrees, Cerificates, and Courses Offered Online form Penn State World Campus</title>
+    <link rel="stylesheet" href="Css.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
 </head>
+
 <body>
 
-  <div class="main">
+    <div class="main">
 
-    <div class="contact">
-        <div class="contact-links">
-              <a class="contact-links-a" href="Coursecatalog.html">COURSE CATALOG | </a>
-              <a class="contact-links-a" href="Contact&Help.html">CONTACT & HELP</a>
+        <div class="contact">
+            <div class="contact-links">
+                <a class="contact-links-a" href="Coursecatalog.html">COURSE CATALOG | </a>
+                <a class="contact-links-a" href="Contact&Help.html">CONTACT & HELP</a>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="nav">
+                <div class="menu-links"><a class="links" style="color:white" href="main.html">HOME</a></div>
+                <div class="small-dash">|</div>
+                <div class="menu-links"><a class="links" style="color:white" href="Aboutus.html">ABOUT US</a></div>
+                <div class="small-dash">|</div>
+                <div class="menu-links"><a class="links" style="color:white" href="Addmission.html">ADMISSIONS</a></div>
+            </div>
+        </div>
+
+
+        <div class="below-info">
+
+            <div class="below-info-box">
+                <div class="below-info-title font-40-color">Course Catalog</div>
+                <div class="below-info-para">Browse the course catalog by program or search for specific course by
+                    selecting the appropriate option.
+                    All fields are optional.
+                </div>
+                <div class="below-info-button"><input type=button value="Browse by Program" onclick="display()" class="below-input"></div>
+            </div>
+
+            <div id="display" class="below-info-program-box">
+
+                <div class="below-info-program-type">
+                    <div class="below-info-title">Program Type</div>
+                    <div class="below-info-select">
+                        <select size=1 name=listBro class="below-input">
+                            <option>All</option>
+                            <option>Ceritificate - Graduate</option>
+                            <option>Ceritificate - Post-baccalaureate</option>
+                            <option>Ceritificate - Undergraduate</option>
+                            <option>Degree - Associate</option>
+                            <option>Degree - Baccalaureate</option>
+                            <option>Degree - Doctorate</option>
+                            <option>Degree - Masters</option>
+                            <option>Degree - No Degree</option>
+                            <option>Minor</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="below-info-program-type">
+                    <div class="below-info-title">Program</div>
+                    <div class="below-info-select">
+                        <select size=1 name=listBro class="below-input">
+                            <option>All</option>
+                            <option>CRIMINAL JUSTICE (MINOR)</option>
+                            <option>ECONOMIC (MINOR)</option>
+                            <option>ENERGY BUSINESS AND FINANCE (MINOR)</option>
+                            <option>ENTREPRENEURSHIP (MINOR)</option>
+                            <option>FINANCE (MINOR)</option>
+                            <option>GEOGRAPHY (MINOR)</option>
+                            <option>HISTORY (MINOR)</option>
+                            <option>HOMELAND SECURITY (MINOR)</option>
+                            <option>HUMAN DEVELOPMENT AND FAMILY STUDIES (MINOR)</option>
+                            <option>INFORMATION SCIENCE AND TECHNOLOGY (MINOR)</option>
+                            <option>LABOR AND EMPLOYEMENT RELATIONS (MINOR)</option>
+                            <option>MEDIA STUDIES (MINOR)</option>
+                            <option>ORAGNIZATIONAL LEADERSHIP (MINOR)</option>
+                            <option>POLITICAL SCIENCE (MINOR)</option>
+                            <option>PSYCHOLOGY (MINOR)</option>
+                            <option>SECURITY AND RISK ANALYSIS (MINOR)</option>
+                            <option>SOCIOLOGY (MINOR)</option>
+                            <option>SUPPLY CHAIN AND INFORMATION SYSTEMS (MINOR)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="below-info-program-type">
+                    <div class="below-info-title">Semester</div>
+                    <div class="below-info-select">
+                        <select size=1 name=listBro class="below-input">
+                            <option>All</option>
+                            <option>Spring 2015</option>
+                            <option>Summer 2015</option>
+                            <option>Fall 2015</option>
+                            <option>Spring 2016</option>
+                            <option>Summer 2016</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="below-info-button">
+                    <input type=button value="SEARCH CATALOG" class="below-input">
+                </div>
+            </div>
+
         </div>
     </div>
-
-    <div class="menu">
-      <div class="nav">
-        <div class="menu-links"><a class="links" style="color:white" href="main.html">HOME</a></div>
-        <div class="small-dash">|</div>
-        <div class="menu-links"><a class="links" style="color:white" href="Aboutus.html">ABOUT US</a></div>
-        <div class="small-dash">|</div>
-        <div class="menu-links"><a class="links" style="color:white" href="Addmission.html">ADMISSIONS</a></div>
-      </div>
-    </div>
-
-
-<div class="below-info">
-
-    <div class="below-info-box">
-        <div class="below-info-title font-40-color">Course Catalog</div>
-        <div class="below-info-para">Browse the course catalog by program or search for specific course by selecting the appropriate option.
-          All fields are optional.
-        </div>
-        <div class="below-info-button"><input type=button value="Browse by Program" onclick="display()" class="below-input"></div>
-    </div>
-
-    <div id="display" class="below-info-program-box">
-
-      <div class="below-info-program-type">
-          <div class="below-info-title">Program Type</div>
-          <div class="below-info-select">
-                 <select size=1 name=listBro class="below-input">
-                    <option>All</option>
-                    <option>Ceritificate - Graduate</option>
-                    <option>Ceritificate - Post-baccalaureate</option>
-                    <option>Ceritificate - Undergraduate</option>
-                    <option>Degree - Associate</option>
-                    <option>Degree - Baccalaureate</option>
-                    <option>Degree - Doctorate</option>
-                    <option>Degree - Masters</option>
-                    <option>Degree - No Degree</option>
-                    <option>Minor</option>
-                 </select>
-          </div>
-      </div>
-      <div class="below-info-program-type">
-          <div class="below-info-title">Program</div>
-          <div class="below-info-select">
-                 <select size=1 name=listBro class="below-input">
-                    <option>All</option>
-                    <option>CRIMINAL JUSTICE (MINOR)</option>
-                    <option>ECONOMIC (MINOR)</option>
-                    <option>ENERGY BUSINESS AND FINANCE (MINOR)</option>
-                    <option>ENTREPRENEURSHIP (MINOR)</option>
-                    <option>FINANCE (MINOR)</option>
-                    <option>GEOGRAPHY (MINOR)</option>
-                    <option>HISTORY (MINOR)</option>
-                    <option>HOMELAND SECURITY (MINOR)</option>
-                    <option>HUMAN DEVELOPMENT AND FAMILY STUDIES (MINOR)</option>
-                    <option>INFORMATION SCIENCE AND TECHNOLOGY (MINOR)</option>
-                    <option>LABOR AND EMPLOYEMENT RELATIONS (MINOR)</option>
-                    <option>MEDIA STUDIES (MINOR)</option>
-                    <option>ORAGNIZATIONAL LEADERSHIP (MINOR)</option>
-                    <option>POLITICAL SCIENCE (MINOR)</option>
-                    <option>PSYCHOLOGY (MINOR)</option>
-                    <option>SECURITY AND RISK ANALYSIS (MINOR)</option>
-                    <option>SOCIOLOGY (MINOR)</option>
-                    <option>SUPPLY CHAIN AND INFORMATION SYSTEMS (MINOR)</option>
-                 </select>
-          </div>
-      </div>
-      <div class="below-info-program-type">
-          <div class="below-info-title">Semester</div>
-          <div class="below-info-select">
-               <select size=1 name=listBro class="below-input">
-                   <option>All</option>
-                   <option>Spring 2015</option>
-                   <option>Summer 2015</option>
-                   <option>Fall 2015</option>
-                   <option>Spring 2016</option>
-                   <option>Summer 2016</option>
-              </select>
-          </div>
-     </div>
-     <div class="below-info-button">
-          <input type=button value="SEARCH CATALOG" class="below-input">
-     </div>
-  </div>
-
-</div>
-</div>
-<script src="JavaScript.js"></script>
+    <script src="JavaScript.js"></script>
 </body>
+
 </html>
