@@ -1,10 +1,14 @@
+html{
+  box-sizing: border-box;
+}
+
+* , *::after , *::before{
+    box-sizing:inherit;
+}
+
 body{
   margin:0px;
   font-family: 'Noto Serif KR', sans-serif;
-}
-
-*{
-  box-sizing:border-box;
 }
 
 img{
