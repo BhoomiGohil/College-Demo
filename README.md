@@ -6,4 +6,4 @@
 
 <h3>About us</h3>
 
-<img src="About Us.png">          
+<img src="About Us.png">
