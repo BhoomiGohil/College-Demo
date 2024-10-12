@@ -32,6 +32,7 @@ h6 {
 :root {
   --white: white;
   --darkWhite: #d6dee4;
+  --extraDarkWhite: #dbdbd9;
   --extraExtraDarkBlue: #001d3a;
   --extraDarkBlue: #00366f;
   --darkBlue: #003665;
@@ -69,6 +70,15 @@ h6 {
 
 .color-lightBlue {
   color: var(--lightBlue);
+}
+
+.double-border {
+  border-bottom: double 4px var(--extraDarkWhite);
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .main {
