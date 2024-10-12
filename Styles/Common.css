@@ -1,0 +1,220 @@
+.common {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: var(--white);
+}
+
+.common-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 6px 4px #abb9c3;
+}
+
+.common-title {
+  width: 100%;
+  color: var(--blue);
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+.common-column {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.common-column-box {
+  width: 100%;
+  padding: 10px;
+  border: solid 1px #dddddd;
+}
+
+.common-para {
+  width: 100%;
+  font-size: 15px;
+  margin: 10px 0px 10px 0px;
+  font-weight: normal;
+}
+
+.common-image {
+  width: 100%;
+}
+
+.common-program-box {
+  width: 100%;
+  min-height: 200px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 6px 4px #abb9c3;
+  display: none;
+}
+
+.common-program-type {
+  width: 95%;
+  min-height: 30px;
+}
+
+.common-button {
+  width: 97%;
+  min-height: 50px;
+  margin: 5px;
+}
+
+.common-select {
+  width: 95%;
+  margin: 5px;
+}
+
+.common-input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  outline: 0px;
+  border: none;
+  background-color: #afd0e8;
+  color: var(--extraDarkBlue);
+  font-weight: bold;
+}
+
+/*Small Laptop*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .common {
+    box-shadow: none;
+  }
+
+  .common-box {
+    min-height: 140px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .common-title {
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .common-para {
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .common-program-box {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .common-program-type {
+    min-height: 25px;
+  }
+
+  .common-button {
+    width: 95%;
+    min-height: 26px;
+    margin: 5px;
+  }
+
+  .common-select {
+    margin: 5px;
+  }
+}
+
+/*tablet*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .common {
+    box-shadow: none;
+  }
+
+  .common-box {
+    min-height: 140px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .common-title {
+    font-size: 17px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .common-para {
+    font-size: 12px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .common-program-box {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .common-program-type {
+    min-height: 25px;
+  }
+
+  .common-button {
+    width: 95%;
+    min-height: 26px;
+    margin: 5px;
+  }
+
+  .common-select {
+    margin: 5px;
+  }
+}
+
+/*mobile*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .common {
+    box-shadow: none;
+  }
+
+  .common-box {
+    min-height: 150px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .common-title {
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .common-column {
+    width: 100%;
+    display: block;
+  }
+
+  .common-para {
+    font-size: 14px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .common-program-box {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .common-program-type {
+    min-height: 25px;
+  }
+
+  .common-button {
+    width: 95%;
+    min-height: 26px;
+    margin: 5px;
+  }
+
+  .common-select {
+    margin: 5px;
+  }
+}
