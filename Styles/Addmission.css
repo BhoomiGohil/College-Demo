@@ -1,0 +1,530 @@
+.upper-info {
+  width: 100%;
+  min-height: 1160px;
+}
+
+.upper-info-image {
+  width: 100%;
+  height: 500px;
+  background-image: url(../Images/img.jpg);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+
+.upper-info-box {
+  float: left;
+  width: 50%;
+  min-height: 50px;
+  margin-top: 2%;
+  background-color: var(--darkWhite);
+  margin-left: 32%;
+  opacity: 0.7;
+}
+
+.upper-info-title {
+  float: left;
+  min-height: 60px;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.upper-info-data {
+  float: left;
+  width: 58%;
+  min-height: 150px;
+  margin: 2%;
+  font-size: 18px;
+}
+
+.upper-info-h4 {
+  float: left;
+  color: var(--lightBlue);
+  font-size: 25px;
+}
+
+.upper-info-button-box {
+  float: left;
+  width: 25%;
+  height: 45%;
+  position: absolute;
+  top: 20%;
+  left: 63%;
+}
+
+.upper-info-button {
+  color: var(--white);
+  background: #02407e;
+  font-size: 30px;
+  margin: 15px;
+  outline: none;
+  border: none;
+}
+
+.admission-mainpage-box {
+  width: 75%;
+  min-height: 800px;
+  position: absolute;
+  top: 80%;
+  left: 12%;
+  margin-bottom: 20px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 6px 4px #abb9c3;
+}
+
+.admission-colume {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.admission-col-box {
+  float: left;
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #dddddd;
+}
+
+.width {
+  width: 63%;
+}
+
+.admission-title {
+  float: left;
+  width: 100%;
+  color: var(--blue);
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+.admission-name {
+  float: left;
+  width: 100%;
+  color: #3793d7;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+.admission-para {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  margin: 10px 0px 10px 0px;
+  font-weight: normal;
+}
+
+.admission-online-rank {
+  width: 70%;
+  height: 215px;
+  margin: auto;
+}
+
+.admission-image {
+  float: left;
+  width: 100%;
+  height: 215px;
+}
+
+.admission {
+  width: 70%;
+  margin: auto;
+}
+
+.admission-box {
+  float: left;
+  width: 100%;
+  min-height: 170px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 6px 4px #abb9c3;
+}
+
+.admission-button {
+  float: left;
+  width: 97%;
+  min-height: 50px;
+  margin: 5px;
+}
+
+.below-input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  outline: 0px;
+  border: none;
+  background-color: #afd0e8;
+  color: var(--extraDarkBlue);
+  font-weight: bold;
+}
+
+.admission-program-box {
+  float: left;
+  width: 100%;
+  min-height: 200px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 6px 4px #abb9c3;
+  display: none;
+}
+
+.admission-program-type {
+  float: left;
+  width: 95%;
+  min-height: 30px;
+}
+
+.admission-select {
+  float: left;
+  width: 95%;
+  margin: 5px;
+}
+
+/*mobile*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .upper-info-image {
+    background-position: 45%;
+  }
+
+  .upper-info-box {
+    width: 96%;
+    min-height: 200px;
+    margin: 2%;
+  }
+
+  .upper-info-title {
+    min-height: 30px;
+    font-size: 25px;
+    margin: 1%;
+  }
+
+  .upper-info-data {
+    width: 97%;
+    min-height: 50px;
+    margin: 1%;
+    font-size: 10px;
+  }
+
+  .upper-info-h4 {
+    font-size: 25px;
+  }
+
+  .upper-info-button-box {
+    width: 80%;
+    height: 20%;
+    top: 50%;
+    left: 45%;
+  }
+
+  .upper-info-button {
+    font-size: 20px;
+    margin: 1%;
+  }
+
+  .admission-mainpage-box {
+    width: 96%;
+    top: 60%;
+    left: 2%;
+    box-shadow: none;
+  }
+
+  .admission-colume {
+    width: 100%;
+    display: block;
+  }
+
+  .admission-col-box {
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  .admission-title {
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .admission-name {
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .admission-para {
+    font-size: 14px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .small-box {
+    float: left;
+    width: 55%;
+    height: 220px;
+  }
+
+  .small-para-box {
+    width: 44%;
+    height: 200px;
+  }
+
+  .admission {
+    width: 95%;
+  }
+
+  .admission-box {
+    min-height: 150px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .admission-button {
+    width: 95%;
+    min-height: 26px;
+    margin: 5px;
+  }
+
+  .admission-program-box {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .admission-program-type {
+    min-height: 25px;
+  }
+
+  .admission-select {
+    margin: 5px;
+  }
+}
+
+/*tablet*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .upper-info {
+    min-height: 500px;
+  }
+
+  .upper-info-image {
+    background-position: 45%;
+  }
+
+  .upper-info-box {
+    width: 70%;
+    min-height: 200px;
+    margin: 2%;
+  }
+
+  .upper-info-title {
+    min-height: 30px;
+    font-size: 25px;
+    margin: 1%;
+  }
+
+  .upper-info-data {
+    width: 65%;
+    min-height: 50px;
+    margin: 1%;
+    font-size: 10px;
+  }
+
+  .upper-info-h4 {
+    font-size: 25px;
+  }
+
+  .upper-info-button-box {
+    width: 50%;
+    height: 20%;
+    top: 20%;
+    left: 50%;
+  }
+
+  .upper-info-button {
+    font-size: 20px;
+    margin: 1%;
+  }
+
+  .admission-mainpage-box {
+    width: 96%;
+    min-height: 200px;
+    top: 60%;
+    left: 2%;
+    box-shadow: none;
+  }
+
+  .admission-col-box {
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  .admission-title {
+    font-size: 17px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .admission-name {
+    font-size: 17px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .admission-para {
+    font-size: 12px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .admission-online-rank {
+    height: 145px;
+  }
+
+  .admission-image {
+    height: 150px;
+  }
+
+  .admission {
+    width: 75%;
+  }
+
+  .admission-box {
+    min-height: 140px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .admission-button {
+    width: 95%;
+    min-height: 26px;
+    margin: 5px;
+  }
+
+  .admission-program-box {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .admission-program-type {
+    min-height: 25px;
+  }
+
+  .admission-select {
+    margin: 5px;
+  }
+}
+
+/*Small Laptop*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .upper-info {
+    min-height: 500px;
+  }
+
+  .upper-info-image {
+    background-position: 45%;
+  }
+
+  .upper-info-box {
+    width: 65%;
+    min-height: 200px;
+    margin: 2%;
+  }
+
+  .upper-info-title {
+    min-height: 30px;
+    font-size: 35px;
+    margin: 1%;
+  }
+
+  .upper-info-data {
+    width: 65%;
+    min-height: 50px;
+    margin: 1%;
+    font-size: 15px;
+  }
+
+  .upper-info-h4 {
+    font-size: 30px;
+  }
+
+  .upper-info-button-box {
+    width: 35%;
+    height: 20%;
+    top: 20%;
+    left: 50%;
+  }
+
+  .upper-info-button {
+    font-size: 25px;
+    margin: 2%;
+  }
+
+  .admission-mainpage-box {
+    width: 96%;
+    min-height: 200px;
+    top: 70%;
+    left: 2%;
+    box-shadow: none;
+  }
+
+  .admission-col-box {
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  .admission-title {
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .admission-name {
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .admission-para {
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+  }
+
+  .admission-online-rank {
+    height: 200px;
+  }
+
+  .admission-image {
+    height: 175px;
+  }
+
+  .admission {
+    width: 75%;
+  }
+
+  .admission-box {
+    min-height: 140px;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .admission-button {
+    width: 95%;
+    min-height: 26px;
+    margin: 5px;
+  }
+
+  .admission-program-box {
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .admission-program-type {
+    min-height: 25px;
+  }
+
+  .admission-select {
+    margin: 5px;
+  }
+}
